@@ -1,0 +1,44 @@
+.search-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  margin-top: 2rem;
+}
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=2560")
+    center center;
+  height: 80vh;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner-text {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1.6fr 0.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header-container header-container header-container"
+    ". . ."
+    "banner-btn-text banner-btn-text banner-btn-text";
+}
+
+.header-container {
+  grid-area: header-container;
+}
+
+.banner-btn-text {
+  grid-area: banner-btn-text;
+}
