@@ -1,0 +1,17 @@
+.search-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  margin-top: 2rem;
+}
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg?im_w=2560")
+    center center;
+  height: 80vh;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
