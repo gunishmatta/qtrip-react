@@ -1,0 +1,45 @@
+.nav-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  flex: 1 1 auto;
+}
+
+.search-bar-button {
+  width: 18.75rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  padding-left: 1rem;
+}
+
+.search-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.search-bar-content {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+}
+
+.search-bar-label {
+  width: 16rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 0.5rem;
+}
+
+.search-icon {
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
