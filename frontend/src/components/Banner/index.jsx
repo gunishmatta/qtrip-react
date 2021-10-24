@@ -13,7 +13,7 @@ export const Banner = () => {
         </div>
       </div>
       <div className="banner-btn-text ">
-        <div role="banner-text" className="heading">
+        <div className="heading">
           <span className="span">Not sure where to go?&nbsp;Perfect.</span>
         </div>
       </div>
